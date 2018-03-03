@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@mipmap/ic_letterb"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/imgchatme"
+        app:civ_border_color="@color/colorPrimary"
+        app:civ_border_width="1dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtuser"
+        android:text="Maina"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="4dp"
+        android:gravity="center_vertical"
+        android:layout_toRightOf="@id/imgchatme"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtmyquiz"
+
+        android:layout_below="@id/imgchatme"
+        android:layout_toRightOf="@id/imgchatme"
+        android:text="Hi Kelly, you are on the right track,take tummy workout that ill send and strictly folllow my videos and two weeks time your tummy will be history...can you send your full picture with minimal clothing and update ur weight and meals "
+        android:textStyle="bold"
+        android:padding="3dp"
+        android:layout_weight="1"
+        android:gravity="right"
+        android:background="@drawable/feedserver"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="2dp"
+        android:textSize="12dp"
+        android:layout_marginBottom="2dp"
+
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:layout_below="@id/txtmyquiz"
+
+
+        android:id="@+id/imgchatquiz"
+        android:layout_toRightOf="@id/imgchatme"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txttime"
+        android:text="10:22Pm"
+        android:layout_marginRight="4dp"
+        android:textColor="@color/gold"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="4dp"
+        android:gravity="center_vertical"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/imgchatquiz"
+       />
+</RelativeLayout>

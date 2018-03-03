@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="joslabs.companyx.clientlist.ClientlistActivity"
+    tools:showIn="@layout/activity_clientlist">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="4dp"
+        android:layout_margin="5dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            >
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:adjustViewBounds="true"
+                android:layout_marginLeft="10dp"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/imguser"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/ic_user"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Peter maina"
+                android:textAlignment="center"
+                style="@style/TextAppearance.AppCompat.Body2"
+                android:layout_toRightOf="@id/imguser"
+
+                android:id="@+id/txtusername"/>
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:adjustViewBounds="true"
+                android:layout_marginLeft="10dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/txtusername"
+                android:layout_marginTop="10dp"
+                android:id="@+id/imgamount"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/ic_money"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtamount"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/imgamount"
+                android:layout_below="@id/txtusername"
+                android:text="Ksh 3000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mpesa"
+                android:layout_toRightOf="@id/txtamount"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_below="@id/txtusername"
+                android:id="@+id/txtmodepayement"/>
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:adjustViewBounds="true"
+                android:layout_marginLeft="10dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/txtamount"
+                android:layout_marginTop="10dp"
+                android:id="@+id/imgproduct"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/ic_product"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtproducts"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/imgproduct"
+                android:layout_below="@id/txtamount"
+                android:text="product A"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Region-Kiambu"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/txtproducts"
+                android:id="@+id/txtregion"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="View all transactions"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/txtproducts"
+                android:textColor="@color/blueColor"
+                android:id="@+id/txtalltransac"/>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

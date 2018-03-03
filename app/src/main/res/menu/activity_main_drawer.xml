@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="home" />
+        <item
+            android:id="@+id/nav_register"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Add Salesperson" />
+        <item
+            android:id="@+id/nav_salesrecord"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Daily sales" />
+        <item
+            android:id="@+id/nav_checkrep"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="View salesAgent" />
+
+        <item
+            android:id="@+id/nav_analysis"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="graph analysis" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+
+            <item
+                android:id="@+id/nav_chat"
+                android:icon="@drawable/ic_menu_share"
+                android:title="chat" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_menu_send"
+                android:title="About" />
+
+        </menu>
+    </item>
+
+</menu>

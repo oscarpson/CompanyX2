@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/activity_horizontal_margin"
+    android:layout_centerInParent="true"
+   >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtusername"
+        android:text="Jane Nyokabi"
+        android:layout_marginBottom="10dp"
+        android:textAlignment="center"
+        style="@style/TextAppearance.AppCompat.Body2"
+        />
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:id="@+id/imguser"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/txtusername"
+        android:src="@drawable/logo_googleg_color_18dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtregion"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        style="@style/TextAppearance.AppCompat.Body2"
+        android:layout_toLeftOf="@id/imguser"
+        android:layout_below="@id/txtusername"
+        android:text="Region :Kiambu"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtcustomers"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        style="@style/TextAppearance.AppCompat.Body2"
+        android:layout_toLeftOf="@id/imguser"
+        android:layout_below="@id/txtregion"
+        android:text="customers : 30"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtpendingcash"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        style="@style/TextAppearance.AppCompat.Body2"
+        android:layout_toLeftOf="@id/imguser"
+        android:layout_below="@id/txtcustomers"
+        android:text="Pending -Ksh 3000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtcash"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        style="@style/TextAppearance.AppCompat.Body2"
+        android:layout_toLeftOf="@id/imguser"
+        android:layout_below="@id/txtpendingcash"
+        android:text="Cash  -Ksh 3000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtanalysis"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        style="@style/TextAppearance.AppCompat.Body2"
+        android:layout_toLeftOf="@id/imguser"
+        android:layout_below="@id/txtcash"
+        android:textColor="@color/blueColor"
+        android:text="Graph analysis"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtanalysisy"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        style="@style/TextAppearance.AppCompat.Body2"
+        android:layout_toLeftOf="@id/imguser"
+        android:layout_below="@id/txtanalysis"
+        android:textColor="@color/blueColor"
+        android:text="More data"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewloca"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        style="@style/TextAppearance.AppCompat.Body2"
+        android:textAlignment="center"
+        android:layout_below="@id/txtanalysisy"
+        android:textColor="@color/blueColor"
+        android:text="view current location"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtlats"
+        android:visibility="gone"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtlongts"
+        android:visibility="gone"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtkey"
+        android:visibility="gone"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+
+        android:background="@color/black"
+        android:layout_below="@id/viewloca"
+        android:layout_marginTop="5dp"/>
+</RelativeLayout>

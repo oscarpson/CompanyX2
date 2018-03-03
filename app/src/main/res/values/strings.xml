@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Sales LineManager</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Awaiting confirmation</string>
+    <string name="title_activity_consolts">Consolts</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_pending">PendingActivity</string>
+    <string name="title_activity_productdistribution">Productdistribution</string>
+    <string name="title_activity_payments">Payments</string>
+    <string name="title_activity_chats">ChatsActivity</string>
+    <string name="title_activity_analysis">AnalysisActivity</string>
+    <string name="title_activity_todaypayments">todaypayments</string>
+    <string name="title_activity_viewsperson">Viewsperson</string>
+    <string name="title_activity_clientlist">ClientlistActivity</string>
+    <string name="title_activity_salesrecords">SalesrecordsActivity</string>
+    <string name="title_activity_app_manager">AppManager</string>
+    <string name="title_activity_new_sales_key">NewSalesKey</string>
+    <string name="title_activity_viewsalesmap">Map</string>
+</resources>

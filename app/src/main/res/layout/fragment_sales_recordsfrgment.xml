@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:background="@drawable/prof"
+    android:layout_marginTop="@dimen/activity_horizontal_margin"
+    android:backgroundTint="@color/browntint"
+    android:backgroundTintMode="screen"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/card_view"
+            android:elevation="4dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="View Sales rep"
+                    android:layout_centerVertical="true"
+                    android:gravity="center_vertical"
+                    android:textAlignment="center"
+
+                    android:id="@+id/txtftarget"/>
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:layout_margin="10dp"
+            android:id="@+id/card_viewc"
+            android:layout_below="@id/card_view"
+            android:elevation="4dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtfcurrent"
+
+                android:text="Today sales"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:layout_margin="10dp"
+            android:id="@+id/card_viewd"
+            android:layout_below="@id/card_viewc"
+            android:elevation="4dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtfcurrentb"
+
+                android:text="Our clients"/>
+        </android.support.v7.widget.CardView>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

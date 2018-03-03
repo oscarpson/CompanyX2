@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="joslabs.companyx.AppManager"
+    tools:showIn="@layout/activity_app_manager">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtwarn"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        style="@style/Base.TextAppearance.AppCompat.Headline"
+        android:text="error encoutered ...get more information from App Manager administrator,joslabs.co.ke os joslabs2012@gmail.com  .Make sure you have internet connection when removing this error"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Remove errors"
+        android:textStyle="bold"
+        android:textColor="@color/gold"
+        android:id="@+id/btnfunga"
+        android:layout_below="@id/txtwarn"/>
+</RelativeLayout>
+
